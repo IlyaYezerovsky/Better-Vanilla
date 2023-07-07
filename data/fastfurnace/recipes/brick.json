@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 30,
+    "ingredient": {
+        "item": "clay_ball"
+    },
+    "result": "brick",
+    "type": "smelting"
+}

@@ -1,0 +1,14 @@
+{
+    "cookingtime": 50,
+    "experience": 70,
+    "ingredient": [
+        {
+            "item": "redstone_ore"
+        },
+        {
+            "item": "deepslate_redstone_ore"
+        }
+    ],
+    "result": "redstone",
+    "type": "smelting"
+}

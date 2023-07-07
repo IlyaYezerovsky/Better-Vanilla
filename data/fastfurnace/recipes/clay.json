@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 35,
+    "ingredient": {
+        "item": "clay"
+    },
+    "result": "terracotta",
+    "type": "smelting"
+}

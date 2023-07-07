@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 35,
+    "ingredient": {
+        "item": "salmon"
+    },
+    "result": "cooked_salmon",
+    "type": "smelting"
+}

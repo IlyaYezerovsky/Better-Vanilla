@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "chicken"
+    },
+    "result": "cooked_chicken",
+    "experience": 35,
+    "cookingtime": 50
+}

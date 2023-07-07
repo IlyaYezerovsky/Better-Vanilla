@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "cobbled_deepslate"
+    },
+    "result": "id",
+    "type": "smelting"
+}

@@ -1,0 +1,14 @@
+{
+    "cookingtime": 50,
+    "experience": 100,
+    "ingredient": [
+        {
+            "item": "emerald_ore"
+        },
+        {
+            "item": "deepslate_emerald_ore"
+        }
+    ],
+    "result": "emerald",
+    "type": "smelting"
+}

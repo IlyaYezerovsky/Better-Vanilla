@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 0,
+    "ingredient": {
+        "item": "nether_bricks"
+    },
+    "result": "cracked_nether_bricks",
+    "type": "smelting"
+}

@@ -1,0 +1,38 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": [
+        {
+            "item": "gold_sword"
+        },
+        {
+            "item": "gold_pickaxe"
+        },
+        {
+            "item": "gold_axe"
+        },
+        {
+            "item": "gold_shovel"
+        },
+        {
+            "item": "gold_hoe"
+        },
+        {
+            "item": "gold_helmet"
+        },
+        {
+            "item": "gold_chestplate"
+        },
+        {
+            "item": "gold_leggings"
+        },
+        {
+            "item": "gold_boots"
+        },
+        {
+            "item": "gold_horse_armor"
+        }
+    ],
+    "result": "id",
+    "type": "smelting"
+}

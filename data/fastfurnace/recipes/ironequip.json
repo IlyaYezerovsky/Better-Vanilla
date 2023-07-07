@@ -1,0 +1,50 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": [
+        {
+            "item": "iron_sword"
+        },
+        {
+            "item": "iron_pickaxe"
+        },
+        {
+            "item": "iron_axe"
+        },
+        {
+            "item": "iron_shovel"
+        },
+        {
+            "item": "iron_hoe"
+        },
+        {
+            "item": "chainmail_helmet"
+        },
+        {
+            "item": "chainmail_chestplate"
+        },
+        {
+            "item": "chainmail_leggings"
+        },
+        {
+            "item": "chainmail_boots"
+        },
+        {
+            "item": "iron_helmet"
+        },
+        {
+            "item": "iron_chestplate"
+        },
+        {
+            "item": "iron_leggings"
+        },
+        {
+            "item": "iron_boots"
+        },
+        {
+            "item": "iron_horse_armor"
+        }
+    ],
+    "result": "iron_ingot",
+    "type": "smelting"
+}

@@ -1,0 +1,17 @@
+{
+    "cookingtime": 50,
+    "experience": 70,
+    "ingredient": [
+        {
+            "item": "raw_iron"
+        },
+        {
+            "item": "iron_ore"
+        },
+        {
+            "item": "deepslate_iron_ore"
+        }
+    ],
+    "result": "id",
+    "type": "smelting"
+}

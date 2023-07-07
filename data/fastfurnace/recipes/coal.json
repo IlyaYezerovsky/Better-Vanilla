@@ -1,0 +1,14 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": [
+        {
+            "item": "coal_ore"
+        },
+        {
+            "item": "deepslate_coal_ore"
+        }
+    ],
+    "result": "coal",
+    "type": "smelting"
+}

@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "porkchop"
+    },
+    "result": "cooked_porkchop",
+    "experience": 35,
+    "cookingtime": 50
+}

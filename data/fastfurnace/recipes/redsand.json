@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "red_sand"
+    },
+    "result": "red_sandstone",
+    "type": "smelting"
+}

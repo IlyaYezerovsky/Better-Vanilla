@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 35,
+    "ingredient": {
+        "item": "potato"
+    },
+    "result": "cooked_potato",
+    "type": "smelting"
+}

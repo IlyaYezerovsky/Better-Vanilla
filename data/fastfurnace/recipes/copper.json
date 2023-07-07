@@ -1,0 +1,17 @@
+{
+    "cookingtime": 50,
+    "experience": 70,
+    "ingredient": [
+        {
+            "item": "raw_copper"
+        },
+        {
+            "item": "iron_copper"
+        },
+        {
+            "item": "deepslate_copper_ore"
+        }
+    ],
+    "result": "id",
+    "type": "smelting"
+}

@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "stone_bricks"
+    },
+    "result": "cracked_stone_bricks",
+    "type": "smelting"
+}

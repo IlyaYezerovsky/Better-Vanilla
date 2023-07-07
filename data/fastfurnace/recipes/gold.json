@@ -1,0 +1,20 @@
+{
+    "cookingtime": 50,
+    "experience": 100,
+    "ingredient": [
+        {
+            "item": "raw_gold"
+        },
+        {
+            "item": "gold_ore"
+        },
+        {
+            "item": "deepslate_gold_ore"
+        },
+        {
+            "item": "nether_gold_ore"
+        }
+    ],
+    "result": "id",
+    "type": "smelting"
+}

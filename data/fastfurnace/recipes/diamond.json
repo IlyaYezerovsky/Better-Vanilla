@@ -1,0 +1,14 @@
+{
+    "cookingtime": 50,
+    "experience": 100,
+    "ingredient": [
+        {
+            "item": "diamond_ore"
+        },
+        {
+            "item": "deepslate_diamond_ore"
+        }
+    ],
+    "result": "diamond",
+    "type": "smelting"
+}

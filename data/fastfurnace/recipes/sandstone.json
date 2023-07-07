@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "sandstone"
+    },
+    "result": "smooth_sandstone",
+    "type": "smelting"
+}

@@ -1,0 +1,14 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": [
+        {
+            "item": "sand"
+        },
+        {
+            "item": "red_sand"
+        }
+    ],
+    "result": "glass",
+    "type": "smelting"
+}

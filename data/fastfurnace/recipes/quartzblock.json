@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "quartz_block"
+    },
+    "result": "smooth_quartz_block",
+    "type": "smelting"
+}

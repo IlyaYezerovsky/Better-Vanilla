@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 35,
+    "ingredient": {
+        "item": "kelp"
+    },
+    "result": "dried_kelp",
+    "type": "smelting"
+}

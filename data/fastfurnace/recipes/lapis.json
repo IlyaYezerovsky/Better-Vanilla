@@ -1,0 +1,14 @@
+{
+    "cookingtime": 50,
+    "experience": 20,
+    "ingredient": [
+        {
+            "item": "lapis_ore"
+        },
+        {
+            "item": "deepslate_lapis_ore"
+        }
+    ],
+    "result": "lapis_lazuli",
+    "type": "smelting"
+}

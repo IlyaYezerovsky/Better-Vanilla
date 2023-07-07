@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:huge_clover_petal"
+		},
+		"title": {"translate":"三叶草地"},
+		"description": {"color":"green","translate":"找到三叶草地"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:clover_patch": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:clover_patch"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

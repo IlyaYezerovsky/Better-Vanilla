@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "item": "netherite_ingot"
+    },
+    "base": {
+        "item": "diamond_helmet"
+    },
+    "result": {
+        "count": 1,
+        "item": "netherite_helmet"
+    },
+    "type": "smithing"
+}

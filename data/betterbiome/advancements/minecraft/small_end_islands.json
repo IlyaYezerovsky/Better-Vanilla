@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_stone_bricks"
+		},
+		"title": {"translate":"末地小型岛屿"},
+		"description": {"color":"yellow”","translate":"找到末地小型岛屿"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/vanilla",
+	"criteria": {
+		"minecraft:small_end_islands": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:small_end_islands"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jungle_leaves"
+		},
+		"title": {"translate":"稀疏丛林"},
+		"description": {"color":"green","translate":"找到稀疏丛林"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/jungle",
+	"criteria": {
+		"minecraft:sparse_jungle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:sparse_jungle"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

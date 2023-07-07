@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:brimstone"
+		},
+		"title": {"translate":"熔岩炼狱"},
+		"description": {"color":"yellow","translate":"找到熔岩炼狱"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:erupting_inferno": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:erupting_inferno"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

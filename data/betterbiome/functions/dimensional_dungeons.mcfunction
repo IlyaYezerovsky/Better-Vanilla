@@ -1,0 +1,1 @@
+advancement grant @s only betterbiome:dimensional_dungeons/dimensional_dungeons

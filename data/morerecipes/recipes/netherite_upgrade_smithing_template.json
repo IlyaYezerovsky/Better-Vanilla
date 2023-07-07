@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "netherite_upgrade_smithing_template"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "netherite_block"
+    },
+    "type": "crafting_shapeless"
+}

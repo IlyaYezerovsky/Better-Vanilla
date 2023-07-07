@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:mahogany_log"
+		},
+		"title": {"translate":"雨林"},
+		"description": {"color":"green","translate":"找到雨林"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:rainforest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:rainforest"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

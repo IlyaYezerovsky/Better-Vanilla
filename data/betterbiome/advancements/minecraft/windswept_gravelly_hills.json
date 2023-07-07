@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gravel"
+		},
+		"title": {"translate":"风袭沙砾丘陵"},
+		"description": {"color":"green","translate":"找到风袭沙砾丘陵"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/windswept_hills",
+	"criteria": {
+		"minecraft:windswept_gravelly_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:windswept_gravelly_hills"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

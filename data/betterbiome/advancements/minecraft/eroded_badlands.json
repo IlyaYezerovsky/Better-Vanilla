@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:orange_terracotta"
+		},
+		"title": {"translate":"风蚀恶地"},
+		"description": {"color":"red","translate":"找到风蚀恶地"},
+		"frame": "challenge",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/badlands",
+	"criteria": {
+		"minecraft:eroded_badlands": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:eroded_badlands"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

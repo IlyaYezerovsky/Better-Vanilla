@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:reed"
+		},
+		"title": {"translate":"草沼"},
+		"description": {"color":"green","translate":"找到草沼"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:marsh": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:marsh"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

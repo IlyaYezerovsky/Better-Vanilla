@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_log"
+		},
+		"title": {"translate":"沼泽"},
+		"description": {"color":"green","translate":"找到沼泽"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/vanilla",
+	"criteria": {
+		"minecraft:swamp": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:swamp"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

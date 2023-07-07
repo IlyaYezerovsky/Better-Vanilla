@@ -33,6 +33,6 @@
             "item": "gold_horse_armor"
         }
     ],
-    "result": "id",
+    "result": "gold_nugget",
     "type": "smelting"
 }

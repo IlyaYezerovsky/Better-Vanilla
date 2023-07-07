@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:jacaranda_log"
+		},
+		"title": {"translate":"薰衣草森林"},
+		"description": {"color":"light_purple","translate":"找到薰衣草森林"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/lavender_field",
+	"criteria": {
+		"biomesoplenty:lavender_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:lavender_forest"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

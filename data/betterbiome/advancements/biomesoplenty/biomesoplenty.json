@@ -1,0 +1,19 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:bop_icon"
+		},
+		"title": {"translate":"超多生物群系"},
+		"description": {"color":"green","translate":"每个探险家的梦想"},
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": false,
+		"hidden": true
+	},
+	"parent": "betterbiome:minecraft/root",
+	"criteria": {
+		"biomeoplenty": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

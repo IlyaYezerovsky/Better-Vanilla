@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:tundra_shrub"
+		},
+		"title": {"translate":"苔原"},
+		"description": {"color":"green","translate":"找到苔原"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:tundra": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:tundra"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

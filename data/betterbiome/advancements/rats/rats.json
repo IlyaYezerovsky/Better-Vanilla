@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "rats:cheese"
+		},
+		"title": {"translate":"老鼠"},
+		"description": {"color":"yellow","translate":"老鼠的世界"},
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": false,
+		"hidden": true
+	},
+	"parent": "betterbiome:minecraft/root",
+	"criteria": {
+		"twilight": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stripped_birch_log"
+		},
+		"title": {"translate":"原始桦木森林"},
+		"description": {"color":"green","translate":"找到原始桦木森林"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/birch_forest",
+	"criteria": {
+		"minecraft:old_growth_birch_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:old_growth_birch_forest"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

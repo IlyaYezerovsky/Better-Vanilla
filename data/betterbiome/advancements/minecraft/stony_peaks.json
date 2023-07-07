@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cracked_stone_bricks"
+		},
+		"title": {"translate":"裸岩山峰"},
+		"description": {"color":"gray","translate":"找到裸岩山峰"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/vanilla",
+	"criteria": {
+		"minecraft:stony_peaks": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:stony_peaks"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

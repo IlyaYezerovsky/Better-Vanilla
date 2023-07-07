@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:snowball"
+		},
+		"title": {"translate":"尖峭山峰"},
+		"description": {"color":"white","translate":"找到尖峭山峰"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/vanilla",
+	"criteria": {
+		"minecraft:jagged_peaks": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:jagged_peaks"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

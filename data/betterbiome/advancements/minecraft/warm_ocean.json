@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:brain_coral_block"
+		},
+		"title": {"translate":"暖水海洋"},
+		"description": {"color":"blue","translate":"找到暖水海洋"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/ocean",
+	"criteria": {
+		"minecraft:warm_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:warm_ocean"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

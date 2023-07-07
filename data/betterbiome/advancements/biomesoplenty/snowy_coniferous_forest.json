@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fern"
+		},
+		"title": {"translate":"积雪的冷杉针叶林"},
+		"description": {"color":"white","translate":"找到积雪的冷杉针叶林"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/coniferous_forest",
+	"criteria": {
+		"biomesoplenty:snowy_coniferous_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:snowy_coniferous_forest"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 900,
+    "ingredient": {
+        "item": "raw_gold_block"
+    },
+    "result": "gold_block",
+    "type": "smelting"
+}

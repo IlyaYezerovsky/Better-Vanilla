@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:flowering_oak_leaves"
+		},
+		"title": {"translate":"地中海森林"},
+		"description": {"color":"green","translate":"找到地中海森林"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:mediterranean_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:mediterranean_forest"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

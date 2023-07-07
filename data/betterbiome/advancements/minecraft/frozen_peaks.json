@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:calcite"
+		},
+		"title": {"translate":"冰封山峰"},
+		"description": {"color":"blue","translate":"找到冰封山峰"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/jagged_peaks",
+	"criteria": {
+		"minecraft:frozen_peaks": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:frozen_peaks"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

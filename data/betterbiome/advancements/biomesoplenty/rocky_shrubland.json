@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:bush"
+		},
+		"title": {"translate":"裸岩灌丛地"},
+		"description": {"color":"gray","translate":"找到裸岩灌丛地"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/scrubland",
+	"criteria": {
+		"biomesoplenty:rocky_shrubland": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:rocky_shrubland"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

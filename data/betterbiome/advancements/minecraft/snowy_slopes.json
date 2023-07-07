@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:powder_snow_bucket"
+		},
+		"title": {"translate":"积雪山坡"},
+		"description": {"color":"white","translate":"找到积雪山坡"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/vanilla",
+	"criteria": {
+		"minecraft:snowy_slopes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:snowy_slopes"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

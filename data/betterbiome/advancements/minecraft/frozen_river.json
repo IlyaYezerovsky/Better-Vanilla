@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:packed_ice"
+		},
+		"title": {"translate":"冻河"},
+		"description": {"color":"blue","translate":"找到冻河"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/river",
+	"criteria": {
+		"minecraft:frozen_river": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:frozen_river"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

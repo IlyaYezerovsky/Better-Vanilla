@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:dead_leaves"
+		},
+		"title": {"translate":"苔沼"},
+		"description": {"color":"white","translate":"找到苔沼"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:muskeg": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:muskeg"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

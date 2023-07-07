@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "rats:ratlantis_portal"
+		},
+		"title": {"translate":"鼠西洲"},
+		"description": {"color":"yellow","translate":"到达鼠西洲"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:rats/rats",
+	"criteria": {
+		"rats:ratlantis": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "rats:ratlantis"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:rats_get"
+	}
+}

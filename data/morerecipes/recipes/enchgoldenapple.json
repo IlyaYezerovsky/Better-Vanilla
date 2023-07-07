@@ -1,0 +1,18 @@
+{
+    "key": {
+        "=": {
+            "item": "gold_ingot"
+    },
+		"+": {
+			"item": "golden_apple"
+    "pattern": [
+        "===",
+        "=+=",
+        "==="
+    ],
+    "result": {
+        "count": 1,
+        "item": "enchanted_golden_apple"
+    },
+    "type": "minecraft:crafting_shaped"
+}

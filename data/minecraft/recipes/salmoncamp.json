@@ -1,0 +1,9 @@
+{
+    "cooking_time": 100,
+    "experience": 35,
+    "ingredient": {
+        "item": "salmon"
+    },
+    "result": "cooked_salmon",
+    "type": "campfire_cooking"
+}

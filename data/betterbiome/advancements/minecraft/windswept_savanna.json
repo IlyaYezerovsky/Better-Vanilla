@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:coarse_dirt"
+		},
+		"title": {"translate":"风袭热带草原"},
+		"description": {"color":"red","translate":"找到风袭热带草原"},
+		"frame": "challenge",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/savanna",
+	"criteria": {
+		"minecraft:windswept_savanna": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:windswept_savanna"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

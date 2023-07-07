@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dark_prismarine"
+		},
+		"title": {"translate":"冷水深海"},
+		"description": {"color":"blue","translate":"找到冷水深海"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/deep_ocean",
+	"criteria": {
+		"minecraft:deep_cold_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:deep_cold_ocean"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

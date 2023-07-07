@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:prismarine"
+		},
+		"title": {"translate":"温水深海"},
+		"description": {"color":"blue","translate":"找到温水深海"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/deep_ocean",
+	"criteria": {
+		"minecraft:deep_lukewarm_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:deep_lukewarm_ocean"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

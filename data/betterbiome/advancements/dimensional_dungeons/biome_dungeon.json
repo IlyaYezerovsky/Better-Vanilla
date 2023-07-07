@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "dimdungeons:item_portal_key"
+		},
+		"title": {"translate":"地牢"},
+		"description": {"color":"gray","translate":"找到地牢"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:dimensional_dungeons/dimensional_dungeons",
+	"criteria": {
+		"dimdungeons:biome_dungeon": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "dimdungeons:biome_dungeon"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:dimensional_dungeons_get"
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "cookingtime": 25,
+    "experience": 70,
+    "ingredient": {
+        "item": "mutton"
+    },
+    "result": "cooked_mutton",
+    "type": "smoking"
+}

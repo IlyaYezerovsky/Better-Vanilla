@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mossy_cobblestone"
+		},
+		"title": {"translate":"原始云杉针叶林"},
+		"description": {"color":"green","translate":"找到原始云杉针叶林"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/taiga",
+	"criteria": {
+		"minecraft:old_growth_spruce_taiga": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:old_growth_spruce_taiga"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

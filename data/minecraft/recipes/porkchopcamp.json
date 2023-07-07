@@ -1,0 +1,9 @@
+{
+    "cooking_time": 100,
+    "experience": 35,
+    "ingredient": {
+        "item": "porkchop"
+    },
+    "result": "cooked_porkchop",
+    "type": "campfire_cooking"
+}

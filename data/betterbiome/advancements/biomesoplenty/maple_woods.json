@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:maple_leaves"
+		},
+		"title": {"translate":"枫树林"},
+		"description": {"color":"red","translate":"找到枫树林"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:maple_woods": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:maple_woods"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

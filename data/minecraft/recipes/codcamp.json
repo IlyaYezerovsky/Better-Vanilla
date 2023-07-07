@@ -1,0 +1,9 @@
+{
+    "cooking_time": 100,
+    "experience": 35,
+    "ingredient": {
+        "item": "cod"
+    },
+    "result": "cooked_cod",
+    "type": "campfire_cooking"
+}

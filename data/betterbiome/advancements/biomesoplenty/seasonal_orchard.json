@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:yellow_autumn_leaves"
+		},
+		"title": {"translate":"时令果园"},
+		"description": {"color":"green","translate":"找到时令果园"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/orchard",
+	"criteria": {
+		"biomesoplenty:seasonal_orchard": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:seasonal_orchard"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

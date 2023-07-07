@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "minecraft:mangrove_log"
+		},
+		"title": {"translate":"红树林沼泽"},
+		"description": {"color":"red","translate":"找到红树林沼泽"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/swamp",
+	"criteria": {
+		"minecraft:mangrove_swamp": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:mangrove_swamp"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

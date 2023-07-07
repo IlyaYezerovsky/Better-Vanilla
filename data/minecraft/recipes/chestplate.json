@@ -1,0 +1,13 @@
+{
+    "addition": {
+        "item": "netherite_ingot"
+    },
+    "base": {
+        "item": "diamond_chestplate"
+    },
+    "result": {
+        "count": 1,
+        "item": "netherite_chestplate"
+    },
+    "type": "smithing"
+}

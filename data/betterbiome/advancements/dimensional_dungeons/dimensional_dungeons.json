@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "dimdungeons:block_gilded_portal"
+		},
+		"title": {"translate":"维度地牢"},
+		"description": {"color":"green","translate":"无限的地牢！"},
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": false,
+		"hidden": true
+	},
+	"parent": "betterbiome:minecraft/root",
+	"criteria": {
+		"dimdungeons": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stripped_spruce_wood"
+		},
+		"title": {"translate":"积雪针叶林"},
+		"description": {"color":"white","translate":"找到积雪针叶林"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/taiga",
+	"criteria": {
+		"minecraft:snowy_taiga": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:snowy_taiga"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

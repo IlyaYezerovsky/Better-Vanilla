@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:dead_leaves"
+		},
+		"title": {"translate":"原始死寂森林"},
+		"description": {"color":"gray","translate":"找到原始死寂森林"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/dead_forest",
+	"criteria": {
+		"biomesoplenty:old_growth_dead_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:old_growth_dead_forest"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

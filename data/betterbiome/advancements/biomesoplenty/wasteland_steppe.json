@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:wilted_lily"
+		},
+		"title": {"translate":"繁茂的荒地"},
+		"description": {"color":"green","translate":"找到繁茂的荒地"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/wasteland",
+	"criteria": {
+		"biomesoplenty:wasteland_steppe": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:wasteland_steppe"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

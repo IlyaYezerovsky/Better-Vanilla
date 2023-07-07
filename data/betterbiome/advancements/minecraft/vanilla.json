@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:grass_block"
+		},
+		"title": {"translate":"原版"},
+		"description": {"color":"green","translate":"传统的游玩之旅"},
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": false,
+		"hidden": true
+	},
+	"parent": "betterbiome:minecraft/root",
+	"criteria": {
+		"minecraft": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

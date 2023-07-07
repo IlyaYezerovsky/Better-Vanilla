@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bamboo"
+		},
+		"title": {"translate":"竹林"},
+		"description": {"color":"green","translate":"找到竹林"},
+		"frame": "challenge",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/jungle",
+	"criteria": {
+		"minecraft:bamboo_jungle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:bamboo_jungle"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

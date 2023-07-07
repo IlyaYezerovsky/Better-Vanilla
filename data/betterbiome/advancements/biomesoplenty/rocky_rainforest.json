@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:terracotta"
+		},
+		"title": {"translate":"裸岩雨林"},
+		"description": {"color":"green","translate":"找到裸岩雨林"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/rainforest",
+	"criteria": {
+		"biomesoplenty:rocky_rainforest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:rocky_rainforest"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

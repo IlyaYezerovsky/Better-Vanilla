@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blue_ice"
+		},
+		"title": {"translate":"冰刺之地"},
+		"description": {"color":"white","translate":"找到冰刺之地"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/snowy_plains",
+	"criteria": {
+		"minecraft:ice_spikes": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:ice_spikes"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

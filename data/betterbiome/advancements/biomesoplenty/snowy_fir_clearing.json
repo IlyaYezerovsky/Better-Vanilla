@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:snow"
+		},
+		"title": {"translate":"积雪的冷杉林空地"},
+		"description": {"color":"white","translate":"找到积雪的冷杉林空地"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/fir_clearing",
+	"criteria": {
+		"biomesoplenty:snowy_fir_clearing": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:snowy_fir_clearing"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

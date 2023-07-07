@@ -1,0 +1,9 @@
+{
+    "cookingtime": 25,
+    "experience": 70,
+    "ingredient": {
+        "item": "salmon"
+    },
+    "result": "cooked_salmon",
+    "type": "smoking"
+}

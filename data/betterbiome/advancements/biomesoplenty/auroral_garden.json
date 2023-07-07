@@ -1,0 +1,27 @@
+﻿{
+	"display": {
+		"icon": {
+			"item": "biomesoplenty:rainbow_birch_leaves"
+		},
+		"title": {"translate":"极光花园"},
+		"description": {"color":"red","translate":"找到极光花园"},
+		"frame": "task",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:biomesoplenty/biomesoplenty",
+	"criteria": {
+		"biomesoplenty:auroral_garden": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "biomesoplenty:auroral_garden"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:biomesoplenty_get"
+	}
+}

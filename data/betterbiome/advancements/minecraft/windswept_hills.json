@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobblestone"
+		},
+		"title": {"translate":"风袭丘陵"},
+		"description": {"color":"green","translate":"找到风袭丘陵"},
+		"frame": "goal",
+		"announce_to_chat": true
+	},
+	"parent": "betterbiome:minecraft/villian",
+	"criteria": {
+		"minecraft:windswept_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:windswept_hills"
+					}
+				}
+			}
+		}
+	},
+	"rewards" :{
+		"function" :"betterbiome:vanilla_get"
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "cooking_time": 100,
+    "experience": 35,
+    "ingredient": {
+        "item": "mutton"
+    },
+    "result": "cooked_mutton",
+    "type": "campfire_cooking"
+}

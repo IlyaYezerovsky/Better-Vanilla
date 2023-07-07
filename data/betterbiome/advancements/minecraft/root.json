@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:birch_sapling"
+		},
+		"title": {"translate":"生物群系探索之旅"},
+		"description": {"color":"green","translate":"环游世界"},
+		"background": "minecraft:textures/block/cherry_planks.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

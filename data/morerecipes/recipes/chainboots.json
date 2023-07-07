@@ -1,16 +1,15 @@
 {
     "key": {
         "=": {
-            "item": "id"
+            "item": "chain"
     },
     "pattern": [
-        "===",
-        "===",
-        "==="
+        "= =",
+        "= ="
     ],
     "result": {
         "count": 1,
-        "item": "id"
+        "item": "chainmail_boots"
     },
     "type": "minecraft:crafting_shaped"
 }

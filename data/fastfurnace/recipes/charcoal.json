@@ -1,0 +1,11 @@
+{
+    "cookingtime": 50,
+    "experience": 15,
+    "ingredient": [
+        {
+            "tag": "logs_that_burn"
+        }
+    ],
+    "result": "charcoal",
+    "type": "smelting"
+}

@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "black_terracotta"
+    },
+    "result": "black_glazed_terracotta",
+    "type": "smelting"
+}

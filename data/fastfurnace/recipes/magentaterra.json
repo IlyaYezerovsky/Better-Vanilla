@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "magenta_terracotta"
+    },
+    "result": "magenta_glazed_terracotta",
+    "type": "smelting"
+}

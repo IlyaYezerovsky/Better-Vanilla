@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "basalt"
+    },
+    "result": "smooth_basalt",
+    "type": "smelting"
+}

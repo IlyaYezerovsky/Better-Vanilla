@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 15,
+    "ingredient": {
+        "item": "wet_sponge"
+    },
+    "result": "sponge",
+    "type": "smelting"
+}

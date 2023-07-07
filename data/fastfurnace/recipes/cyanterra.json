@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "cyan_terracotta"
+    },
+    "result": "cyan_glazed_terracotta",
+    "type": "smelting"
+}

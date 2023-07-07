@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 100,
+    "ingredient": {
+        "item": "cactus"
+    },
+    "result": "green_dye",
+    "type": "smelting"
+}

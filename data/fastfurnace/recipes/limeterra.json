@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "lime_terracotta"
+    },
+    "result": "lime_glazed_terracotta",
+    "type": "smelting"
+}

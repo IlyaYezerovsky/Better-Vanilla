@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "chorus_fruit"
+    },
+    "result": "pooped_chorus_fruit",
+    "type": "smelting"
+}

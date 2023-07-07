@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "pink_terracotta"
+    },
+    "result": "pink_glazed_terracotta",
+    "type": "smelting"
+}

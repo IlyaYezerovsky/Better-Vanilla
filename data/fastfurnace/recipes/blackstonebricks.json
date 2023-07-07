@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 10,
+    "ingredient": {
+        "item": "polished_blackstone_brick"
+    },
+    "result": "cracked_polished_blackstone_brick",
+    "type": "smelting"
+}

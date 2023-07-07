@@ -1,0 +1,9 @@
+{
+    "cookingtime": 50,
+    "experience": 20,
+    "ingredient": {
+        "item": "sea_pickle"
+    },
+    "result": "lime_dye",
+    "type": "smelting"
+}

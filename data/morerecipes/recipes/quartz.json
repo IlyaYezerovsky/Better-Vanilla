@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "quartz_block"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "nether_quartz"
+    },
+    "type": "crafting_shapeless"
+}

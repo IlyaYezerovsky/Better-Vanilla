@@ -1,0 +1,12 @@
+{
+    "ingredients": [
+        {
+            "item": "id"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "id"
+    },
+    "type": "crafting_shapeless"
+}

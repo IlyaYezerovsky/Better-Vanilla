@@ -1,0 +1,23 @@
+{
+    "key": {
+        "1": {
+            "item": "id"
+        },
+        "2": {
+            "item": "id"
+        },
+        "3": {
+            "item": "id"
+        }
+    },
+    "pattern": [
+        "123",
+        "231",
+        "312"
+    ],
+    "result": {
+        "count": 1,
+        "item": "id"
+    },
+    "type": "minecraft:crafting_shaped"
+}
